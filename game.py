@@ -48,7 +48,7 @@ while running:
 
     # Drawing
     screen.fill((0, 0, 0))
-    pygame.draw.rect(screen, (0, 255, 0), player)
+    pygame.draw.rect(screen, (255, 255, 0), player)
     [pygame.draw.rect(screen, (255, 0, 0), e) for e in enemies]
     [pygame.draw.rect(screen, (255, 255, 255), b) for b in bullets]
     pygame.display.flip()
